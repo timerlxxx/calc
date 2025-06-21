@@ -124,7 +124,7 @@ public class ExpressionParser {
             case "sqrt":
                 if (value < 0) throw new ArithmeticException("负数的平方根");
                 return Math.sqrt(value);
-            case "log":
+            case "lg":
                 if (value <= 0) throw new ArithmeticException("对数参数必须为正数");
                 return Math.log10(value);
             case "ln":
