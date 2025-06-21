@@ -3,7 +3,7 @@
 
 表达式计算：通过ExpressionParser解析和计算数学表达式
 
-历史记录管理：通过HistoryManager实现计算记录的持久化存储
+历史记录管理：通过HistoryManager实现计算记录的持久化存储，记录导入导出和搜索
 
 图形界面：通过CalculatorGUI提供用户交互界面
 
